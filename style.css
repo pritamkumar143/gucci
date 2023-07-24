@@ -1,0 +1,334 @@
+@font-face {
+  font-family: gucci;
+  src: url(./GucciSansPro-Light.dec1c4e4.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gucci;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  background-color: #fff;
+  width: 100%;
+  /* mix-blend-mode: difference; */
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-top: 1px solid gray;
+  z-index: 99;
+}
+
+nav svg {
+  fill: #000;
+  width: 90%;
+  /* height: 40vh; */
+  position: absolute;
+  top: 10vh;
+  left: 6%;
+}
+nav a {
+  color: #fff;
+}
+
+#icons1 {
+  display: flex;
+  gap: 20px;
+}
+#icons1 i {
+  font-size: 25px;
+}
+#page1 {
+  height: 100vh;
+  width: 100;
+}
+
+#page1 {
+  height: 210vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  position: relative;
+  margin-top: 10vh;
+}
+#page1 img {
+  width: 50%;
+  /* height: 110vh; */
+  position: absolute;
+  top: 45vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+  object-fit: cover;
+  object-position: center;
+}
+#page1 #text1 {
+  width: 300px;
+  height: 150px;
+
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
+#page1 #text1 h1 {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 600;
+  color: #fff;
+  background-color: transparent;
+  mix-blend-mode: difference;
+}
+#page1 #text1 button {
+  padding: 10px 25px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  mix-blend-mode: difference;
+}
+#page2 {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+#page2 h1 {
+  text-align: center;
+}
+#page2 a {
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+#page2 #page2_part2 {
+  width: 100%;
+  height: 70vh;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  overflow-x: auto;
+}
+#page2 #page2_part2::-webkit-scrollbar {
+  display: none;
+}
+#page2 img {
+  width: 450px;
+}
+#page2 i {
+  font-size: 30px;
+  cursor: pointer;
+}
+#page2 h5 {
+  font-size: 18px;
+}
+#line2 {
+  width: 300px;
+  height: 2px;
+  background-color: black;
+}
+#page3 {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding: 140px 20px;
+  position: relative;
+}
+#page3-part1 {
+  width: 50%;
+  min-height: 100vh;
+}
+
+#page3-part1 img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+#page3-part1 #h1 {
+  height: 24px;
+  width: 80px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: center;
+  background: gray;
+  color: #fff;
+  /* mix-blend-mode: difference; */
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  z-index: 9;
+  opacity: 0.8;
+  font-family: gucci;
+}
+#page3-part2 img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+#page3-part2 {
+  width: 50%;
+  min-height: 100vh;
+}
+#page3-part2 #h2 {
+  height: 26px;
+  width: 120px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  background: #000;
+  color: #fff;
+  /* mix-blend-mode: difference; */
+  position: absolute;
+  top: 17%;
+  left: 70%;
+  z-index: 9;
+  opacity: 0.6;
+}
+
+#page4 {
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  padding: 60px 30px 0 30px;
+}
+#page4-part1 {
+  min-height: 130vh;
+  width: 50%;
+  background-image: url(https://media.gucci.com/dynamic/b3c8/CCUSMgv0E7vHw5NB95H1J3VGrqU90qUonJk_nA97aKy0m4uR1y1QIjBx_e74Sh2v+LcTyNQk_2piMNGi3k5t9IhQ3vDGB_HrvQQhLM7iavELnVqfvwTaudXRR7OCxRRo_QpnkfT39NjzR8OsyXA3QWssNqYv1Mx1docm6CoBRgUTOEhDlzPbqMo5pBGTVgerXkDql3GL08F6n8scVToE7UbgLdrTge6sstXxvPdQIGysl3OLbRH6pPe8lmT6EuF6rj4dcbzuAlvpQ7NA2wIOeQ==/Gucci_Desktop_Routing_2UP_Horsebit_July23_3x4.png);
+  background-size: cover;
+  /* background-position: center; */
+}
+#page4-part2 {
+  min-height: fit-content;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  flex-direction: column;
+  gap: 50px;
+}
+#page4-part2 h1 {
+  font-size: 50px;
+  font-weight: 100;
+}
+#page4-part2 p {
+  font-size: 15px;
+}
+#page4-part2 a {
+  text-transform: uppercase;
+  font-size: 17px;
+  color: black;
+}
+footer {
+  min-height: 150vh;
+  width: 100%;
+  padding: 50px;
+  background-color: #000;
+  /* display: flex; */
+}
+#foot-1 {
+  width: 100%;
+  height: 45vh;
+  /* background-color:transparent; */
+  display: flex;
+  gap: 220px;
+}
+#foot1 h1{
+    color: #ffffffa8;
+    font-size: 20px;
+
+}
+#foot1 {
+    padding-top:20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 30px;
+}
+#foot1 a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none
+}
+#foot2{
+    padding-top: 30px;
+    width: 20vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+}
+#foot2 h1{
+    font-size: 20px;
+    font-weight: 200;
+    color: #ffffffb7;
+}
+#foot2 a{
+    color: #fff;
+    font-size:16px ;
+    text-decoration: none;
+}
+#foot3{
+    width: 56vh;
+    height: 40vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+    /* background-color: red; */
+}
+#foot3 h1{
+    color: #ffffff7b;
+    font-size: 16px;
+}
+#foot-bottom {
+    /* height: 20vh;
+    width: 100%; */
+}
+#foot-bottom svg{
+    padding: 200px;
+    fill: #fff;
+    scale: 1.3;
+
+}
